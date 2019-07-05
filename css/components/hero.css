@@ -1,0 +1,83 @@
+.hero {
+  max-width: 1899px;
+  margin: 0 auto;
+  padding: 12px 0;
+  background: url(../../images/hero/pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.hero-layout {
+  display: flex;
+  margin: 0 -35px;
+}
+
+.hero-layout > * {
+  padding: 0 35px;
+}
+
+.hero-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-right {
+  display: flex;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px;
+}
+
+.hero-textarea {
+  max-width: 400px;
+  color: #eeecec;
+  font-family: "Segoe WP";
+  line-height: 35.94px;
+}
+
+.hero-title {
+  font-size: 31px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.hero-description {
+  font-size: 23px;
+  margin: 0;
+  max-width: 230px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 640px) {
+  .hero-layout {
+    margin: 0 -50px;
+  }
+  
+  .hero-layout > * {
+    padding: 0 50px;
+  }
+
+  .hero-img {
+    padding: 0 36px;
+  }
+
+  .hero-textarea {
+    line-height: 44.42px;
+  }
+  
+  .hero-title {
+    font-size: 42px;
+  }
+
+  .hero-description {
+    font-size: 26px;
+    max-width: 250px;
+  }
+}
