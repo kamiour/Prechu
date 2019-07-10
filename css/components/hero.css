@@ -9,6 +9,14 @@
   position: relative;
 }
 
+.swiper-button-next {
+  margin-right: 20px;
+}
+
+.swiper-button-prev {
+  margin-left: 20px;
+}
+
 .hero-layout {
   display: flex;
   margin: 0 -35px;
