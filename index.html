@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Prechu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/components/swiper.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
 
@@ -51,32 +52,45 @@
     <main class="main">
 
       <section class="hero">
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
         <div class="container">
-          <div class="hero-layout">
-            <div class="hero-left col-4x6 col-3x5-bg">
-              <figure class="hero-img">
-                <img class="img" src="images/hero/iphone.png" alt="not found">
-              </figure>
-            </div>
-            <div class="hero-right col-6x4 col-5x3-bg">
-              <div class="hero-textarea">
-                <h1 class="hero-title">Lorem Ipsum is simply</h1>
-                <p class="hero-description">
-                  dummy text of the printing & typesetting
-                </p>
-                <div class="hero-buttons">
-                  <a href="#signup" class="button">
-                    <figure class="button-icon">
-                      <img class="img" src="images/hero/Tick.svg" alt="not found">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="hero-layout">
+                  <div class="hero-left col-4x6 col-3x5-bg">
+                    <figure class="hero-img">
+                      <img class="img" src="images/hero/iphone.png" alt="not found">
                     </figure>
-                    <div class="button-text">
-                      Sign up now
+                  </div>
+                  <div class="hero-right col-6x4 col-5x3-bg">
+                    <div class="hero-textarea">
+                      <h1 class="hero-title">Lorem Ipsum is simply</h1>
+                      <p class="hero-description">
+                        dummy text of the printing & typesetting
+                      </p>
+                      <div class="hero-buttons">
+                        <a href="#signup" class="button">
+                          <figure class="button-icon">
+                            <img class="img" src="images/hero/Tick.svg" alt="not found">
+                          </figure>
+                          <div class="button-text">
+                            Sign up now
+                          </div>
+                        </a>
+                      </div>
                     </div>
-                  </a>
+                  </div>
                 </div>
               </div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
             </div>
           </div>
+
         </div>
       </section>
 
@@ -211,6 +225,13 @@
         </div>
       </div>
     </footer>
+
+    <script
+			  src="http://code.jquery.com/jquery-3.4.1.slim.min.js"
+			  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+			  crossorigin="anonymous"></script>
+    <script src="js/components/swiper.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 
 </html>
