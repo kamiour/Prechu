@@ -25,33 +25,20 @@
   .list-title {
     font-size: 26px;
   }
-
-  .list-description {
-  font-size: 17px;
-  line-height: 36px;
-}
   
   .list-description {
-    font-size: 15px;
-  }
-}
-
-@media screen and (min-width: 640px) {
-  .list-title {
-    font-size: 26px;
-  }
-  
-  .list-description {
-    font-size: 15px;
+    font-size: 14px;
+	line-height: 1.4
   }
 }
 
 @media screen and (min-width: 960px) {
   .list-title {
-    font-size: 26px;
+    font-size: 28px;
   }
   
   .list-description {
-    font-size: 15px;
+    font-size: 18px;
+	line-height: 28px;
   }
 }

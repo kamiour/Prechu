@@ -73,7 +73,6 @@
 
 @media screen and (min-width: 480px) {
   .hero-layout {
-    display: flex;
     margin: 0 -20px;
   }
   
@@ -106,11 +105,11 @@
   }
   
   .hero-title {
-    font-size: 42px;
+    font-size: 36px;
   }
 
   .hero-description {
-    font-size: 26px;
+    font-size: 22px;
     max-width: 250px;
   }
 }
