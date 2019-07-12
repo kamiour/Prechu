@@ -15,6 +15,7 @@ html {
   max-width: 1017px;
   margin: 0 auto;
   padding: 0 30px;
+  overflow: hidden;
 }
 
 body {  
