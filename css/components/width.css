@@ -7,6 +7,11 @@
   /* 1 */
   max-width: 100%;
 }
+
+.width-1-1 {
+	width: 100%;
+}
+
 /* Halves */
 .width-1-2 {
   width: 50%;

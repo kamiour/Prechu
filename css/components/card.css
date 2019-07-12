@@ -4,8 +4,8 @@
   align-items: center;
   padding-top: 15px;
   padding-bottom: 12px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 0 -12px;
 }
 
@@ -73,14 +73,12 @@
     align-items: center;
     padding-top: 31px;
     padding-bottom: 18px;
-    padding-left: 30px;
-    padding-right: 30px;
     margin: 0 -12px;
     }
 
   .card-title {
 	text-align: left;
-	font-size: 34px;
+	font-size: 30px;
 	font-weight: 600;
 	line-height: 1;
 	margin-bottom: 10px;
@@ -113,8 +111,6 @@
     justify-content: center;
     padding-top: 73px;
     padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
   }
 
   .card-title {
@@ -129,13 +125,13 @@
   }
 
   .card-media {
-    height: 186px;
-    width: 186px;
+    height: 138px;
+    width: 138px;
     margin-bottom: 28px;
   }
 
   .features-img {
-    width: 95px;
+    width: 70px;
     height: auto;
   }
 }
