@@ -1,6 +1,6 @@
 .hero-buttons {
-  max-width: 245px;
-  padding-top: 33px;
+  max-width: 100%;
+  padding-top: 15px;
 }
 
 .button {
@@ -8,10 +8,10 @@
   justify-content: center;
   align-items: center;
   background-color: #5094f2;
-  padding: 15px 14px;
+  padding: 10px 10px;
   margin-bottom: 5px;
   color: #ffffff;
-  font-size: 31px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1;
   text-decoration: none;
@@ -38,12 +38,53 @@
   justify-content: center;
   align-items: center;
   background-color: #5094f2;
+  width: 36px;
+  height: 28px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 480px) {
+	.button {
+  padding: 15px 14px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  }
+  
+.hero-buttons {
+  max-width: 245px;
+  padding-top: 15px;
+}
+}
+
+@media screen and (min-width: 640px) {
+  .burger-button {
+    display: none;
+  }
+
+  .hero-buttons {
+    max-width: 172px;
+	padding-top: 33px;
+  }
+
+  .button {
+    padding: 10px 10px;
+    color: #ffffff;
+    font-size: 22px;
+  }
+
+  .button-icon {
+    max-width: 23px;
+    max-height: 23px;
+    margin-right: 10px;
+  }
+  .burger-button {
   width: 58px;
   height: 44px;
   padding: 10px;
 }
+}
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 960px) {
   .burger-button {
     display: none;
   }
