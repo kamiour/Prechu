@@ -34,6 +34,36 @@
   cursor: default;
 }
 
+.nav-mobile {
+	position: relative;
+}
+
+.nav-mobile ul{
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  z-index: 100;
+  top: 20px;
+  right: 0;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.nav-item-mob{
+  color: #fff;
+  padding: 8px 0;
+  text-decoration: none;
+  line-height: 1;
+}
+
+ul li{
+  padding: 10px 0;
+}
+
+.nav-mobile ul.is-open {
+  display: block;
+}
+
 .burger-button {
   display: flex;
   margin: 0;

@@ -14,7 +14,6 @@ html {
 .container {
   max-width: 1017px;
   margin: 0 auto;
-  overflow: hidden;
   padding: 0 30px;
 }
 
