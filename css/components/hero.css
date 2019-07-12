@@ -24,6 +24,8 @@
 
 .hero-layout {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   margin: 0 -35px;
 }
 
@@ -40,13 +42,12 @@
 .hero-right {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-img {
-  width: 100%;
   height: auto;
   margin: 0;
-  padding: 10px;
 }
 
 .hero-textarea {
@@ -57,7 +58,7 @@
 }
 
 .hero-title {
-  font-size: 31px;
+  font-size: 14px;
   margin: 0;
   font-weight: 300;
 }
@@ -69,19 +70,18 @@
   font-weight: 300;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 480px) {
   .hero-layout {
-    margin: 0 -50px;
-  }
-  
-  .hero-layout > * {
-    padding: 0 50px;
+    display: flex;
+    margin: 0 -35px;
   }
 
-  .hero-img {
-    padding: 0 36px;
+  .hero-title, .hero-description {
+    text-align: left;
   }
+}
 
+@media screen and (min-width: 640px) {
   .hero-textarea {
     line-height: 44.42px;
   }

@@ -64,14 +64,6 @@
     align-items: flex-end;
   }
 
-  .col-4x6-bg {
-    width: 40%;
-  }
-
-  .col-6x4-bg {
-    width: 60%;
-  }
-
   .col {
     border: none;
   }
