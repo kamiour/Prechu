@@ -15,8 +15,8 @@
 
 @media screen and (min-width: 480px) {
 	.trademark {
-	  font-size: 15px;
-	  line-height: 20px;
+		font-size: 15px;
+		line-height: 20px;
 	}
 	
 	.footer {
@@ -29,9 +29,9 @@
 	.trademark {
 	  font-size: 15px;
 	  line-height: 20px;
-}
+  }
 
-.footer {
+  .footer {
 	  padding: 35px 0;
 	  margin-top: 46px;
 	}

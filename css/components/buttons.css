@@ -50,16 +50,16 @@
     font-size: 30px;
   }
   
-.hero-buttons {
-  max-width: 245px;
-  padding-top: 22px;
-}
+  .hero-buttons {
+    max-width: 245px;
+    padding-top: 22px;
+  }
 
-.burger-button {
-  width: 58px;
-  height: 44px;
-  padding: 10px;
-}
+  .burger-button {
+    width: 58px;
+    height: 44px;
+    padding: 10px;
+  }
 }
 
 @media screen and (min-width: 640px) {
@@ -69,7 +69,7 @@
 
   .hero-buttons {
     max-width: 172px;
-	padding-top: 33px;
+  	padding-top: 33px;
   }
 
   .button {
