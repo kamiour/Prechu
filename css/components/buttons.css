@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   background-color: #5094f2;
-  padding: 10px 10px;
+  padding: 15px 10px;
   margin-bottom: 5px;
   color: #ffffff;
   font-size: 24px;
@@ -52,7 +52,7 @@
   
 .hero-buttons {
   max-width: 245px;
-  padding-top: 15px;
+  padding-top: 22px;
 }
 
 .burger-button {
