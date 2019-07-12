@@ -45,19 +45,25 @@
   z-index: 100;
   top: 20px;
   right: 0;
-  padding: 10px 20px;
+  padding: 10px 15px;
   margin: 0;
 }
 
 .nav-item-mob{
+  display: block;
   color: #fff;
-  padding: 8px 0;
+  padding: 10px;
   text-decoration: none;
   line-height: 1;
 }
 
+.nav-item-mob:hover{
+  background-color: #d94748;
+  text-decoration: none;
+}
+
 ul li{
-  padding: 10px 0;
+  padding: 0;
 }
 
 .nav-mobile ul.is-open {
