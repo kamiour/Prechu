@@ -5,6 +5,9 @@ $(document).ready(function(){
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
 	  },
+	  autoplay: {
+		delay: 3000,
+	  },
 	});
 
 	$('.burger-menu').on('click', function(e){
