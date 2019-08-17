@@ -4,9 +4,15 @@
 }
 
 .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #5094f2;
   padding: 15px 10px;
   margin-bottom: 5px;
@@ -15,6 +21,7 @@
   font-weight: 300;
   line-height: 1;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 .button:hover {
@@ -34,13 +41,20 @@
 }
 
 .burger-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #5094f2;
   width: 38px;
   height: 30px;
   padding: 5px;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 480px) {

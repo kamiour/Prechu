@@ -9,10 +9,5 @@ $(document).ready(function(){
 		delay: 3000,
 	  },
 	});
-
-	$('.burger-menu').on('click', function(e){
-		e.preventDefault();
-		$('.nav-mobile ul').toggleClass('is-open')
-	});
   
 })
