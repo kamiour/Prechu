@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.section-cart {
+.section-cart, .section-tabs {
   margin-top: 48px;
 }
 
@@ -131,4 +131,12 @@
   .section-features {
     margin-bottom: 91px;
   }
+}
+
+.section-tabs .section-body {
+  width: 100%;
+}
+
+.section-tabs .tabs-wrap {
+  width: 100%;
 }
